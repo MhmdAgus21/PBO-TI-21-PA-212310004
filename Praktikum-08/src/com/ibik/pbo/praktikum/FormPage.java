@@ -163,7 +163,7 @@ public class FormPage extends JFrame {
         mainPanel.add(rightPanel, BorderLayout.EAST);
 
         String data[][] = {
-                { "212310001", "Muhamad Agus", "B" },
+                { "212310004", "Muhamad Agus", "B" },
                 { "212310002", "Raihan Dwi", "C" },
                 { "212310003", "Raihan Pratama", "A" }
         };
