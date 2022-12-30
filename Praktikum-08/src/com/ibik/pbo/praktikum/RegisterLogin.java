@@ -83,9 +83,9 @@ public class RegisterLogin extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String data[] = {
-                        "212310001@student.ibik.ac.id",
-                        "212310001",
-                        "Zaki Aljabbar"
+                        "212310004@student.ibik.ac.id",
+                        "212310004",
+                        "MuhamadAgus"
                 };
 
                 String inputedPass = new String(textPassword.getPassword());
