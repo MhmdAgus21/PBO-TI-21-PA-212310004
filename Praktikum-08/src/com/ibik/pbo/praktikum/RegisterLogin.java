@@ -116,7 +116,7 @@ public class RegisterLogin extends JFrame {
         // ActionListener actionSubmit = new ActionListener() {
         // public void actionPerformed(ActionEvent e) {
         // String myEmail = "212310004@student.ibik.ac.id";
-        // String myName = "muhamad agus";
+        // String myName = "MuhamadAgus";
         // String myPass = "212310004";
 
         // String inputPass = new String(textPassword.getPassword());
