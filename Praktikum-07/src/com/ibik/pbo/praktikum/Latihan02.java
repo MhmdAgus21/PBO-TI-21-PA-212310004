@@ -58,7 +58,7 @@ public class Latihan02 extends JFrame {
         final JTextField textFullName = new JTextField();
         textFullName.setBounds(105, 18, 169, 30);
         textFullName.setEditable(true);
-        // textFullName.setText("MuhamadAgus");
+        // textFullName.setText("Muhamad Agus");
         // textFullName.setBackground(Color.LIGHT_GRAY);
         panel1.add(textFullName);
 
@@ -69,7 +69,7 @@ public class Latihan02 extends JFrame {
         final JTextField textEmail = new JTextField();
         textEmail.setBounds(105, 64, 169, 30);
         panel1.add(textEmail);
-        JLabel lblPhone = new JLabel("Number");
+        JLabel lblPhone = new JLabel("Phone");
         lblPhone.setBounds(22, 109, 61, 16);
         panel1.add(lblPhone);
 
@@ -99,7 +99,7 @@ public class Latihan02 extends JFrame {
 
         String country[] = {
                 "Indonesia",
-                "India",
+                "Rusia",
                 "Australia",
                 "U.S.A",
                 "England",
@@ -120,7 +120,7 @@ public class Latihan02 extends JFrame {
                     data.add(textFullName.getText());
                 } else {
                     JOptionPane.showMessageDialog(null,
-                            "Data tidak boleh kosong (Nama Kosong). Silakan periksa kembali isian anda.",
+                            "Ada Data Yang Belom Di Isi. Isi Semua Data Gus.",
                             "Alert!", JOptionPane.ERROR_MESSAGE);
                 }
 
