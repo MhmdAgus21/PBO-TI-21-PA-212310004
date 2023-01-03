@@ -128,7 +128,7 @@ public class Latihan02 extends JFrame {
                     data.add(textEmail.getText());
                 } else {
                     JOptionPane.showMessageDialog(null,
-                            "Data tidak boleh kosong (Email Kosong). Silakan periksa kembali isian anda.",
+                    		"Ada Data Yang Belom Di Isi. Isi Semua Data Gus.",
                             "Alert!", JOptionPane.ERROR_MESSAGE);
                 }
 
@@ -136,7 +136,7 @@ public class Latihan02 extends JFrame {
                     data.add(txtPhone.getText());
                 } else {
                     JOptionPane.showMessageDialog(null,
-                            "Data tidak boleh kosong (No. Telepon Kosong). Silakan periksa kembali isian anda.",
+                    		 "Ada Data Yang Belom Di Isi. Isi Semua Data Gus.",
                             "Alert!", JOptionPane.ERROR_MESSAGE);
                 }
 
